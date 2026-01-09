@@ -14,6 +14,7 @@ The solution consists of:
 - CPU stress testing using Linux `stress` utility
 
 > 📷 Architecture diagram is included in this repository.
+ (architecture-cloudwatch.png)
 
 ---
 
