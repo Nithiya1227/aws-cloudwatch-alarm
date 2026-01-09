@@ -13,8 +13,8 @@ The solution consists of:
 - Amazon SNS for email notifications
 - CPU stress testing using Linux `stress` utility
 
-> 📷 Architecture diagram is included in this repository.
- (architecture-cloudwatch.png)
+## 📷 Architecture diagram is included in this repository.
+ [Architecture overview](architecture-cloudwatch.png)
 
 ---
 
@@ -62,9 +62,9 @@ CloudWatch alarm state may vary depending on EC2 instance size and workload beha
 
 
 ## 📸 Screenshots (Proof of Work)
-CloudWatch Alarm(screenshots/cloudwatch.png)
-EC2 CPU Utilization Graph(
-SNS Email Notification(screenshots/
+[CloudWatch Alarm](screenshots/cloudwatch.png)
+[terminal sns](screenshots/terminal-sns.png)
+[SNS Email Notification](screenshots/sns-mail-msg)
 
 
 
@@ -88,4 +88,14 @@ Real-world alerting setup used in production systems
 
 
 
-📌 This project demonstrates real-world AWS monitoring skills suitable for junior cloud engineer and fresher roles.
+## 🔔 Alert Validation Note
+Due to AWS Free Tier constraints and low CPU burst behavior, the CloudWatch alarm threshold was not force-triggered during testing.
+However, the end-to-end alerting pipeline was successfully validated by:
+Confirmed CloudWatch alarm configuration
+Verified SNS topic subscription
+Successfully receiving SNS test email notifications
+This confirms that the monitoring and notification setup is functioning as expected in a real-world environment.
+
+
+
+## 📌 This project demonstrates real-world AWS monitoring skills suitable for junior cloud engineer and fresher roles.
