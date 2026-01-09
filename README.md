@@ -64,7 +64,7 @@ CloudWatch alarm state may vary depending on EC2 instance size and workload beha
 ## 📸 Screenshots (Proof of Work)
 [CloudWatch Alarm](screenshots/cloudwatch.png)
 [terminal sns](screenshots/terminal-sns.png)
-[SNS Email Notification](screenshots/sns-mail-msg)
+[SNS Email Notification](screenshots/sns-mail-msg.png)
 
 
 
